@@ -11,6 +11,10 @@
 		80FD55292897845700793E44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD55282897845700793E44 /* ContentView.swift */; };
 		80FD552B2897845A00793E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FD552A2897845A00793E44 /* Assets.xcassets */; };
 		80FD552E2897845A00793E44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FD552D2897845A00793E44 /* Preview Assets.xcassets */; };
+		80FD55352897849100793E44 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD55342897849100793E44 /* DataController.swift */; };
+		80FD553A2897849E00793E44 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80FD55362897849E00793E44 /* Model.xcdatamodeld */; };
+		80FD553B2897849E00793E44 /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD55382897849E00793E44 /* Binding-OnChange.swift */; };
+		80FD553C2897849E00793E44 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD55392897849E00793E44 /* CategoriesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		80FD55282897845700793E44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		80FD552A2897845A00793E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80FD552D2897845A00793E44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80FD55342897849100793E44 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		80FD55372897849E00793E44 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		80FD55382897849E00793E44 /* Binding-OnChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
+		80FD55392897849E00793E44 /* CategoriesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				80FD55262897845700793E44 /* ExampleDeleteFailureApp.swift */,
+				80FD55382897849E00793E44 /* Binding-OnChange.swift */,
+				80FD55392897849E00793E44 /* CategoriesView.swift */,
+				80FD55362897849E00793E44 /* Model.xcdatamodeld */,
+				80FD55342897849100793E44 /* DataController.swift */,
 				80FD55282897845700793E44 /* ContentView.swift */,
 				80FD552A2897845A00793E44 /* Assets.xcassets */,
 				80FD552C2897845A00793E44 /* Preview Content */,
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80FD553B2897849E00793E44 /* Binding-OnChange.swift in Sources */,
 				80FD55292897845700793E44 /* ContentView.swift in Sources */,
+				80FD553C2897849E00793E44 /* CategoriesView.swift in Sources */,
+				80FD55352897849100793E44 /* DataController.swift in Sources */,
 				80FD55272897845700793E44 /* ExampleDeleteFailureApp.swift in Sources */,
+				80FD553A2897849E00793E44 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +355,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80FD55362897849E00793E44 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80FD55372897849E00793E44 /* Model.xcdatamodel */,
+			);
+			currentVersion = 80FD55372897849E00793E44 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 80FD551B2897845700793E44 /* Project object */;
 }
